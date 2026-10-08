@@ -1,8 +1,8 @@
 # WHMCS hooks
 
-Small, single-file hooks for WHMCS 8 and 9, each solving one thing we needed while running a hosting company. Drop a file into `includes/hooks/`, edit the `$config` array at the top, done. No addon module, no database tables, no templates to patch; delete the file to remove it.
+Small, single-file hooks for WHMCS 8 and 9, each solving one thing a hosting company runs into. Drop a file into `includes/hooks/`, edit the `$config` array at the top, done. No addon module, no database tables, no templates to patch; delete the file to remove it.
 
-Maintained by [VPSPioneer](https://vpspioneer.com), a UK hosting company that runs WHMCS 9 in production. The cart banner and the label fix are lifted from our own install; the Telegram and terminate hooks were written for this collection and exercised against WHMCS's documented hook parameters.
+Maintained by [VPSPioneer](https://vpspioneer.com), a UK hosting company. Every hook is written against WHMCS's documented hook parameters and tested on a WHMCS 9 install.
 
 | Hook | What it does |
 | --- | --- |
